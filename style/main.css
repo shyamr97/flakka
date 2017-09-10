@@ -339,6 +339,22 @@ ul.menu-items li{
     padding-right: : 60px;
 
 }
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+.non-sticky {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
 .address-footer{
 	text-align: center;
 }
