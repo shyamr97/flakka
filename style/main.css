@@ -2,18 +2,34 @@
 
 .header-appointment{
 	background-color: #373838;
+	margin: 0;
+	width: 100%;
+	max-width: none;
+}
+.header-iconclass{
+	color: #fff9d6;
+    font-size: 1em;
+    font-family: "Oswald";
 }
 .header-appointment-requestcall{
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+.header-top-icons{
+	    color: #eb75f9;
+    padding-right: 5px;
+    padding-top: 18px;
+}
 .header-appointment-intouch1{
-	font-style: italic;
+	font-family: "Oswald";
 	color: white;
+	font-weight: 700;
 }
 .header-appointment-intouch2{
 	color:#c96ed4;
+	padding-left: 20px;
+	font-family: "Oswald";
 	font-size: 1.2em;
 	text-decoration: none;
 	font-weight: 600;
@@ -375,6 +391,7 @@ ul.menu-items li{
 .post-main-content{
 	padding: 10px 30px;
 	font-size: 0.9em;
+	font-family: "'Archivo Narrow', sans-serif";
 }
 .medical-team-title{
 	text-align: center;
@@ -386,12 +403,14 @@ ul.menu-items li{
 	width: 200px;
 	height: 200px;
 	background-size: cover;
-	border-radius: 100%;
 	margin:auto;
 }
 .medical-team-name{
 	text-align: center;
-	padding-top: 10px;
+    padding-top: 10px;
+    font-family: "Oswald";
+    color: #562567;
+    font-weight: 700;
 }
 .medical-team-qualification{
 	text-align: center;
@@ -399,6 +418,7 @@ ul.menu-items li{
 	margin-bottom: 20px;
 	font-style: italic;
 	font-size: 0.9em;
+	font-family: "Archivo";
 }
 .testimonial-text{
 	text-align: left;
@@ -451,4 +471,28 @@ ul.menu-items li{
     width: 100%;
     padding-bottom: 50px;
     max-width: 100%;
+}
+.footer-navtitles{
+	color: #fade3c;
+    font-family: "Oswald";
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.footer-navtext{
+	color: white;
+	padding-left: 15px;
+	font-family: "Oswald";
+}
+.footer-navlink2{
+	color:white;
+}
+#footer-navlink2>li{
+	list-style: none;
+}
+.footer-navlink1{
+	color: white;
+}
+#footer-navlink1>li{
+	list-style: none;
 }
