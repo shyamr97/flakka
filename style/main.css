@@ -149,12 +149,20 @@ ul.menu-items li{
     background-size: cover;
 }
 .service-item-title{
-	text-align: center;
-    padding: 18px;
-    font-size: 1.2em;
+	    text-align: center;
+    padding: 3px 1px 26px 0px;
+    font-size: 1.6em;
     color: #91229e;
     font-family: "Oswald";
-    font-weight:700;
+    font-weight: 700;
+    cursor: pointer;
+}
+.choose-item-title{
+	text-align: center;
+    padding: 28px 1px 1px 0px;
+    font-size: 1.6em;
+    color: #91229e;
+    font-family: "Oswald";
     font-weight: 700;
     cursor: pointer;
 }
@@ -196,7 +204,6 @@ ul.menu-items li{
 }
 .why-us-title{
 	text-align: center;
-	font-size: 2em;
 	color:#91229e;
 	font-family: "Oswald";
 	padding-bottom: 30px;
@@ -233,6 +240,8 @@ ul.menu-items li{
 
 .patients-container{
 	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 60px;
 }
 
 .look-beautiful-container{
@@ -247,10 +256,12 @@ ul.menu-items li{
     font-size: 2em;
     text-align: center;
     padding-top: 20px;
+    font-family: "Oswald";
     padding-bottom: 30px;
 }
 .beautiful-subtext{
 	text-align: center;
+	font-family: "Oswald";
 }
 .footer-container{
 	background-color: #373838;
@@ -268,10 +279,12 @@ ul.menu-items li{
 
 .patients-title{
 	text-align: center;
-	font-size: 2em;
-	padding-top: 20px;
-	padding-bottom: 30px;
-	color: #d65044;
+    font-size: 2em;
+    padding-top: 20px;
+    font-weight: 700;
+    padding-bottom: 45px;
+    color: #91229e;
+    font-family: "Oswald";
 }
 .patient-image{
 	background-size: cover;
@@ -281,24 +294,35 @@ ul.menu-items li{
 	margin: auto;
 }
 .patient-text{
-	text-align: center;
-    padding: 10px;
-    color: #716d6d;
+	text-align: left;
+    padding: 10px 75px 10px 75px;
+    color: #696363;
+    font-style: italic;
+    font-family: "Archivo";
 
 }
-.patient-name{
-	    text-align: center;
+.patient-name{	
     position: relative;
-    left: -10px;
     font-weight: 700;
-    font-style: italic
+    font-style: italic;
+    text-align: right;
+    padding-right: 75px;
+    padding-top: 15px;
 }
 .quote-patient{
-	position: relative;
-    color: #d65044;
+	color: #91229e;
     padding-top: 10px;
     padding-bottom: 5px;
-    left: -41px;
+    float: left;
+    padding-left: 60px;
+
+}
+.quote-patient-reverse{
+	color: #91229e;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    float: right;
+    padding-right: : 60px;
 
 }
 .address-footer{
